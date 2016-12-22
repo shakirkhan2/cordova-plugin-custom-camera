@@ -1,0 +1,19 @@
+{
+  "name": "truebil-camera",
+  "version": "0.0.1",
+  "description": "Truebil Camera Plugin",
+  "cordova": {
+    "id": "truebil-camera",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "camera",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Shakir Khan",
+  "license": "Apache 2.0"
+}
