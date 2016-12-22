@@ -1,9 +1,9 @@
 {
-  "name": "truebil-camera",
+  "name": "cordova-plugin-custom-camera",
   "version": "0.0.1",
-  "description": "Truebil Camera Plugin",
+  "description": "Custom Camera Plugin",
   "cordova": {
-    "id": "truebil-camera",
+    "id": "cordova-plugin-custom-camera",
     "platforms": [
       "android"
     ]

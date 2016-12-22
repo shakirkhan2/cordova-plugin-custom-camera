@@ -24,7 +24,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 import android.view.ViewGroup;
-import com.truebil.dcapp.R;
 import android.graphics.Color;
 import android.content.Context;
 
@@ -365,13 +364,6 @@ public class CameraLauncher extends CordovaPlugin implements MediaScannerConnect
         text.setPadding(50, 10, 50, 10);
         text.setText(caption);
         layout.addView(text);
-
-       /* LayoutInflater inflater = LayoutInflater.from(context);
-        View layout = inflater.inflate(R.layout.camera_caption, (ViewGroup) this.cordova.getActivity().findViewById(R.id.camera_caption_container));
-
-        TextView text = (TextView) layout.findViewById(R.id.text);
-        text.setText(caption);*/
-
 
         toast = new Toast(context);
         toast.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 0, 0);
